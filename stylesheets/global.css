@@ -50,42 +50,9 @@ a { color: black; }
 
 .logo-e { font-weight: 500; }
 
-.main-page section { color: white; }
-.info-page section { color: black; }
-
 h1 {
-  font-size: 70px;
-  margin-bottom: 10px;
+  font-size: 10em;
 }
-
-h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 30px;
-}
-
-p {
-  font-size: 25px;
-}
-
-#header {
-  background-color: white;
-  
-  font-size: 20px;
-  text-align: left;
-  
-  position: fixed;
-  left: 0;
-  right: 0;
-  height: 43px;
-  padding: 0;
-  
-  z-index: 1;
-}
-
 #title {
   float: left;
   padding: 10px;
@@ -93,7 +60,6 @@ p {
 }
 #navigation {
   float: right;
-  height: 40px;
   margin: 10px 10px 0px 0px;
 }
 #navigation a {
@@ -117,20 +83,17 @@ p {
 .content-section {
   color: white;
   padding: 100px 50px 50px 50px;
-  height: 600px;
   text-align: center;
 }
 .content { margin-top: 60px; }
 
 .code-sample {
   letter-spacing: -0.02em;
-  font-size: 17px;
   text-align: left;
   
   color: #444444;
   
   margin: 50px 0 0 -300px;
-  width: 600px;
   position: relative;
   left: 50%;
 }
@@ -159,9 +122,9 @@ p {
 
 .blurb {
   margin-top: 140px;
-  width: 350px;
   font-size: 18px;
   line-height: 2em;
+  width: 30em;
 }
 .left-column .blurb {
   margin-right: 20px;
@@ -195,14 +158,12 @@ input {
   border: none;
   outline: none;
 }
-.email-field { width: 250px; }
 .submit-button { background-color: rgba(255,255,255,0.8); }
 .ng-invalid .submit-button { background-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.2); }
 .invalid-email-error { font-size: 20px; margin-top: 10px; }
 
 .info-page { background-color: #F8F8F8; }
 .info-page .content-section p {
-  width: 700px;
   position: relative;
   left: 50%;
   margin: 20px 0px 0px -350px;
