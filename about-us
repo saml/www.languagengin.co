@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link href="/stylesheets/global.css" rel="stylesheet" type="text/css" />
+        <title>languagengine - About Us</title>
+    </head>
+    <body class="info-page">
+        <section id="header">
+            <a href="/"><span id="title">languag<span class="logo-e">e</span>ngine</span></a>
+            <nav id="navigation">
+                <a href="/">Home</a>
+                <a href="/learn-more">Learn More</a>
+                <a href="/about-us">About Us</a>
+            </nav>
+        </section>
+        
+        <section id="about-us" class="content-section">
+            <h1>About Us</h1>
+            <div class="content">
+                
+                <div class="bio">
+                    <h3>Darryl McAdams</h3>
+                    <p>
+                        Darryl is a linguist and type theorist with an interest in artificial intelligence. He also really likes pizza and Babylon 5. You can find him on Twitter as <a href="http://www.twitter.com/psygnisfive">@psygnisfive</a> and on freenode as augur.
+                    </p>
+                </div>
+                
+                <div class="bio">
+                    <img src="/images/jon.png" alt="Jon Sterling" width=150 height=150 />
+                    <h3>Jon Sterling</h3>
+                    <p class="bio">
+                        Jon is a software engineer, dilettante type theorist, syntactician, and philologist, as well as student of Ancient Greek, Sumerian, Hittite, Akkadian, Latin, Old English and German. He cohosts the <a href="http://typetheorypodcast.com/">Type Theory Podcast</a>, and looks a lot like Jude Law. You can find him on Twitter as <a href="http://www.twitter.com/jonsterling">@jonsterling</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
