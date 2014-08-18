@@ -1,13 +1,54 @@
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fira Sans'), url("../fonts/FiraSans-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Fira Sans Medium'), url("../fonts/FiraSans-Medium.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Serif Pro'), url("../fonts/SourceSerifPro-Regular.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/Heuristica-Italic.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Serif Pro Bold'), url("../fonts/SourceSerifPro-Bold.woff") format('woff');
+}
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Code Pro'), url("../fonts/SourceCodePro-Regular.woff") format('woff');
+}
+
+
 * {
-  font-family: "Helvetica Neue", "Helvetica", sans-serif;
+  font-family: 'Fira Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 0.05em;
   font-weight: 100;
   padding: 0;
   margin: 0;
 }
+pre, code, .code-sample {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "DejaVu Sans Mono", monospace;
+}
 a { color: black; }
 
-.logo-e { font-family: inherit; font-weight: 500; }
+.logo-e { font-weight: 500; }
 
 .main-page section { color: white; }
 .info-page section { color: black; }
@@ -82,7 +123,6 @@ p {
 .content { margin-top: 60px; }
 
 .code-sample {
-  font-family: monospace;
   letter-spacing: -0.02em;
   font-size: 17px;
   text-align: left;
@@ -95,15 +135,12 @@ p {
   left: 50%;
 }
 .code-comment {
-  font-family: inherit;
   color: #AAAAAA;
 }
 .code-keyword {
-  font-family: inherit;
   color: #3FA8AF;
 }
 .code-string {
-  font-family: inherit;
   color: #DD3357;
 }
 
